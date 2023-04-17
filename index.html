@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/web-icon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Bing En</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"> Bing En </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="ri-home-2-line"></i> Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="ri-trophy-line"></i> Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="ri-book-open-line"></i> Qualification
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#courses" class="nav__link">
+                <i class="ri-briefcase-2-line"></i> Courses
+              </a>
+            </li> 
+
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">
+                <i class="ri-task-line"></i> Projects
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="ri-message-2-line"></i> Contact
+              </a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <div class="nav__buttons">
+          <!-- Theme change button -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+          <!-- Toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid section__border">
+          <div class="home__data grid">
+            <h1 class="home__title">
+              Hi, I'm Bing En <br />
+              A Student from Ngee Ann Polytechnic
+            </h1>
+
+            <div class="home__blob grid">
+              <div class="home__profile">
+                <img src="assets/img/profile-pic.png" alt="home profile" />
+              </div>
+
+              <img
+                src="assets/img/shape-wawes.svg"
+                alt=""
+                class="home__shape-wawes"
+              />
+              <img
+                src="assets/img/shape-circle.svg"
+                alt=""
+                class="home__shape-circle"
+              />
+            </div>
+
+            <ul class="home__social">
+              <a
+                href="https://linkedin.com/in/bing-en-koo"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-linkedin-box-line"></i>
+              </a>
+
+              <a
+                href="https://github.com/bingenk"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-github-fill"></i>
+              </a>
+
+              <a
+                href="https://twitter.com/bingen_k"
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-twitter-line"></i>
+              </a>
+            </ul>
+          </div>
+
+          <!--==================== HOME INFO 1 ====================-->
+          <div class="home__info">
+            <div>
+              <h3 class="home__info-title">BIOGRAPHY</h3>
+
+              <p class="home__info-description">
+                Hi, I'm Bing En, a student from Ngee Ann Polytechnic. Passionate
+                about the application development and designing beautiful web
+                interfaces. Willing to discover more in the field of IT.
+              </p>
+            </div>
+
+            <div>
+              <h3 class="home__info-title">CONTACT</h3>
+
+              <p class="home__info-description">
+                s10244655@connect.np.edu.sg <br />
+                +65 89079272 <br />
+              </p>
+            </div>
+          </div>
+
+          <!--==================== HOME INFO 2 ====================-->
+          <div class="home__info">
+            <div>
+              <h3 class="home__info-title">YEARS STUDIED</h3>
+
+              <p class="home__info-number">1/3</p>
+            </div>
+
+            <div>
+              <h3 class="home__info-title">COMPLETED PROJECTS</h3>
+
+              <p class="home__info-number">20+</p>
+            </div>
+
+            <div>
+              <h3 class="home__info-title">QUALIFICATION</h3>
+
+              <p class="home__info-number">
+                70+ certificates in specific fields
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My acquire skills</span>
+
+        <div class="skills__container container grid section__border">
+          <!--==================== SKILLS 1 ====================-->
+          <div class="skills__content">
+            <h3 class="skills__title">
+              <i class="ri-braces-line"></i> Frontend Developer
+            </h3>
+
+            <div class="skills__info">
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/html-1.svg" alt="skills image" />
+                </div>
+
+                <h3 class="skills__name">HTML</h3>
+                <span class="skills__subtitle">Intermediate</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/css-3.svg" alt="skills image" />
+                </div>
+
+                <h3 class="skills__name">CSS</h3>
+                <span class="skills__subtitle">Advanced</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="assets/img/logo-javascript.svg"
+                    alt="skills image"
+                  />
+                </div>
+
+                <h3 class="skills__name">JavaScript</h3>
+                <span class="skills__subtitle">Intermediate</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/sass.svg" alt="skills image" />
+                </div>
+
+                <h3 class="skills__name">SASS</h3>
+                <span class="skills__subtitle">Basic</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/git-icon.svg" alt="skills image" />
+                </div>
+
+                <h3 class="skills__name">Git</h3>
+                <span class="skills__subtitle">Basic</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/bootstrap-5-1.svg" alt="skills image" />
+                </div>
+
+                <h3 class="skills__name">Bootstrap</h3>
+                <span class="skills__subtitle">Basic</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/adobe-xd.svg" alt="skills image" />
+                </div>
+
+                <h3 class="skills__name">Adobe XD</h3>
+                <span class="skills__subtitle">Intermediate</span>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== SKILLS 2 ====================-->
+          <div class="skills__content">
+            <h3 class="skills__title">
+              <i class="ri-pantone-line"></i> Backend Developer
+            </h3>
+
+            <div class="skills__info">
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img
+                    src="assets/img/logo-javascript.svg"
+                    alt="skills image"
+                  />
+                </div>
+
+                <h3 class="skills__name">JavaScript</h3>
+                <span class="skills__subtitle">Intermediate</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/c++.svg" alt="skills image" />
+                </div>
+
+                <h3 class="skills__name">C++</h3>
+                <span class="skills__subtitle">Basic</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/c-sharp.svg" alt="skills image" />
+                </div>
+
+                <h3 class="skills__name">C#</h3>
+                <span class="skills__subtitle">Basic</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/python.svg" alt="skills image" />
+                </div>
+
+                <h3 class="skills__name">Python</h3>
+                <span class="skills__subtitle">Intermediate</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/json.svg" alt="skills image" />
+                </div>
+
+                <h3 class="skills__name">JSON</h3>
+                <span class="skills__subtitle">Basic</span>
+              </div>
+
+              <div class="skills__data">
+                <div class="skills__blob">
+                  <img src="assets/img/node-js.svg" alt="skills image" />
+                </div>
+
+                <h3 class="skills__name">node JS</h3>
+                <span class="skills__subtitle">Basic</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">Experiences & Education</span>
+
+        <div class="qualification__container container grid section__border">
+          <!--==================== QUALIFICATION 1 ====================-->
+          <div class="qualification__content">
+            <h3 class="qualification__title">
+              <i class="ri-pencil-ruler-2-line"></i> Education
+            </h3>
+
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">IGCSE O-levels (2021)</h3>
+                <span class="qualification__list">Physics (A*)</span>
+                <span class="qualification__list">Chinese Language (A*)</span>
+                <span class="qualification__list">Chemistry (A)</span>
+                <span class="qualification__list">Biology (A)</span>
+                <span class="qualification__list">English Language (A)</span>
+                <span class="qualification__list">Mathematics (A)</span>
+                <span class="qualification__list">Malay Language (A)</span>
+                <span class="qualification__list"
+                  >Additional Mathematics (B)</span
+                >
+              </div>
+
+              <div>
+                <h3 class="qualification__name">IELTS Certificate (2021)</h3>
+                <span class="qualification__list">Listening 6.0</span>
+                <span class="qualification__list">Reading 6.5</span>
+                <span class="qualification__list">Writing 7.0</span>
+                <span class="qualification__list">Speaking 5.5</span>
+                <span class="qualification__list"
+                  >Overall 6.5 <br />
+                  CEFR Level B2</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!--==================== QUALIFICATION 2 ====================-->
+          <div class="qualification__content">
+            <h3 class="qualification__title">
+              <i class="ri-boxing-line"></i> Co-curricular
+            </h3>
+
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">Taekwondo Certificates</h3>
+                <span class="qualification__list">Highlights :</span>
+                <span class="qualification__list"
+                  >Black Belt Certificate (1st Poom) - 17 Jul 2019</span
+                >
+                <span class="qualification__list"
+                  >Kukkiwon Invitational Championship 2019 - Silver Medal</span
+                >
+                <span class="qualification__list"
+                  >Completing Black Belt Intructor Camp 2020</span
+                >
+                <span class="qualification__list"
+                  >Malaysia Kyorugi Championship 2019 - Gold Medal</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <img
+          src="assets/img/shape-circle.svg"
+          alt="qualification image"
+          class="qualification__img"
+        />
+      </section>
+
+      <!--==================== COURSES ====================-->
+      <section class="qualification section" id="courses">
+        <h2 class="section__title">COURSES</h2>
+        <span class="section__subtitle">Year 1 & 2.1</span>
+
+        <div class="qualification__container container grid section__border">
+          <!--==================== COURSE 1 ====================-->
+          <div class="qualification__content">
+            <h3 class="qualification__title">
+              <i class="ri-pencil-ruler-2-line"></i> Year 1
+            </h3>
+
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">Year 1.1 (22S1)</h3>
+                <span class="qualification__list">INNOVATION MADE POSSIBLE (IMP_012417)</span>
+                <span class="qualification__list">PROGRAMMING 1 (2_PRG1_011845)</span>
+                <span class="qualification__list">DESIGN PRINCIPLES (2_DP_009588)</span>
+                <span class="qualification__list">CYBER SECURITY FUNDAMENTALS (2_CSF_012446)</span>
+                <span class="qualification__list">FUNDAMENTALS FOR IT PROFESSIONALS 1 (1_FP1_011844)</span>
+                <span class="qualification__list">DATA SCIENCE FUNDAMENTALS (1_DSF_013201)</span>
+                <span class="qualification__list">COMPUTING MATHEMATICS (1_CM_011846)</span>                
+              </div>
+
+              <div>
+                <h3 class="qualification__name">Year 1.2 (22S2)</h3>
+                <span class="qualification__list">INTERACTIVE DEVELOPMENT (1_ID_009807)</span>
+                <span class="qualification__list">OPERATING SYSTEMS & NETWORKING FUNDAMENTALS (1_OSNF_012447)</span>
+                <span class="qualification__list">DATABASES (1_DB_011851)</span>
+                <span class="qualification__list">PROGRAMMING 11 (1_PRG2_011850)</span>
+                <span class="qualification__list">COMMUNICATION ESSENTIALS (COMMS_012419)</span>
+                <span class="qualification__list">HEALTH & WELLNESS (HW_012816)</span>              
+              </div>
+            </div>
+          </div>
+
+          <!--==================== COURSE 2 ====================-->
+          <div class="qualification__content">
+            <h3 class="qualification__title">
+              <i class="ri-pencil-ruler-2-line"></i> Year 2
+            </h3>
+
+            <div class="qualification__info">
+              <div>
+                <h3 class="qualification__name">Year 2.1 (23S1)</h3>
+                <span class="qualification__list">GAME PRODUCTION (1_GPN_011873)</span>
+                <span class="qualification__list">MOBILE APPLICATIONS DEVELOPMENT (2_MAD_011877)</span>
+                <span class="qualification__list">WEB APPLICATION DEVELOPMENT (1_WEB_011854)</span>
+                <span class="qualification__list">OBJECT-ORIENTED ANALYSIS & DESIGN (2_OOAD_011855)</span>
+                <span class="qualification__list">FUNDAMENTALS FOR IT PROFESSIONALS 2 (1_FPS_011853)</span>
+                <span class="qualification__list">WORLD ISSUES: A SINGAPORE PERSPECTIVE (WISP_012796)</span>              
+              </div>
+          </div>
+        </div>
+
+        <img
+          src="assets/img/shape-circle.svg"
+          alt="qualification image"
+          class="qualification__img"
+        />
+      </section>
+      
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services"></section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">Most recent work</span>
+
+        <div class="container section__border">
+          <div class="projects__container swiper">
+            <div class="swiper-wrapper">
+              <!--==================== PROJECTS 1 ====================-->
+              <div class="projects__content swiper-slide">
+                <img
+                  src="assets/img/project-star trekkers.png"
+                  alt="projects image"
+                  class="projects__img"
+                />
+
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h1 class="projects__title">Star Trekkers</h1>
+
+                  <a
+                    href="https://github.com/bingenk/Star-Trekkers"
+                    target="_blank"
+                    class="projects__button"
+                  >
+                    View projects <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!--==================== PROJECTS 2 ====================-->
+              <div class="projects__content swiper-slide">
+                <img
+                  src="assets/img/project-heart-beat.png"
+                  alt="projects image"
+                  class="projects__img"
+                />
+
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h1 class="projects__title">Heart-Beat</h1>
+
+                  <a
+                    href="https://github.com/bingenk/Heart-Beat"
+                    target="_blank"
+                    class="projects__button"
+                  >
+                    View projects <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!--==================== PROJECTS 3 ====================-->
+              <div class="projects__content swiper-slide">
+                <img
+                  src="assets/img/project-argyle.co.png"
+                  alt="projects image"
+                  class="projects__img"
+                />
+
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h1 class="projects__title">Argyle Co.</h1>
+
+                  <a
+                    href="https://github.com/bingenk/ID-Assignment-1"
+                    target="_blank"
+                    class="projects__button"
+                  >
+                    View projects <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+
+              <!--==================== PROJECTS 4 ====================-->
+              <div class="projects__content swiper-slide">
+                <img
+                  src="assets/img/project-Stickman-Game-js.png"
+                  alt="projects image"
+                  class="projects__img"
+                />
+
+                <div>
+                  <span class="projects__subtitle">Web</span>
+                  <h1 class="projects__title">Stickman-Game-js</h1>
+
+                  <a
+                    href="https://github.com/bingenk/Stickman-Game-js"
+                    target="_blank"
+                    class="projects__button"
+                  >
+                    View projects <i class="ri-arrow-right-line"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Swiper arrows -->
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+
+            <!-- Swiper pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== TESTIMONIAL ====================-->
+      <section class="testimonial section">
+        <h2 class="section__title">Testimonial</h2>
+        <span class="section__subtitle">From Teacher/Tutor & School</span>
+
+        <div class="container section__border">
+          <div class="testimonial__container swiper">
+            <div class="swiper-wrapper">
+              <!--==================== TESTIMONIAL 1 ====================-->
+              <div class="testimonial__content swiper-slide">
+                <p class="testimonial__description"> 
+                  Being Koo Bing En's English tutor over the period of 7 years has been hugely encouraging experience. 
+                  Indeed, an unforgettable one if I may put it more aptly. Where many might see as problems, he simply 
+                  looks at them as surmountable challenges that set his mind in overdrive mode. This trait has allowed 
+                  him to overcome failures and hurdles in his academic pursuit. As his tutor, I would describe him as a 
+                  truly outstanding student who seeks to perform his best, not to impress any, but rather to strive for 
+                  excellence. To him, good enough was never good enough, but only he has given his all to achieve the best
+                  he could would he be satisfied. 
+                  <br>
+                  <br>                  
+                  <a href="assets/pdf/Testimonial-1.pdf" target="_blank">link for PDF</a>
+                </p>
+
+                <div>
+                  <h3 class="testimonial__name">David Chai : davidchai@live.com</h3>
+                  <spam class="testimonial__subtitle">English Tutor</spam>
+                </div>
+              </div>
+
+              <!--==================== TESTIMONIAL 2 ====================-->
+              <div class="testimonial__content swiper-slide">
+                <p class="testimonial__description">
+                  My first and most lasting impression of Koo Bing En, is that of his inquisitive mind. He asks many questions 
+                  in class and eagerly seeks clarifications for any doubts he may have. He sets high standards for himself
+                  and commits to the tasks he sets his mind to. The initiative to learn is a trait that is increasingly hard 
+                  to come by and Koo Bing En is one of the few to possess it. His participation in Biology lab session also 
+                  enhanced his critical thinking skills which can in turn, be used in his daily life by deepening his perspective 
+                  on creative thinking. 
+                  <br>
+                  <br>                  
+                  <a href="assets/pdf/Testimonial-2.pdf" target="_blank">link for PDF</a>
+                </p>
+
+                <div>
+                  <h3 class="testimonial__name">Mani Maran s/o Marimuthu</h3>
+                  <spam class="testimonial__subtitle">Biology Teacher</spam>
+                </div>
+              </div>
+
+              <!--==================== TESTIMONIAL 3 ====================-->
+              <div class="testimonial__content swiper-slide">
+                <p class="testimonial__description">
+                  Remarks: 
+                  <br>
+                  <br>
+                  - Very good academic record <br>
+                  - Satisfactory conduct <br>
+                  -A genial student with an agreeable personality                  
+                  <br>
+                  <br>                  
+                  <a href="assets/pdf/Testimonial-3.pdf" target="_blank">link for PDF</a>
+                </p>
+
+                <div>
+                  <h3 class="testimonial__name">Seri Omega International School</h3>              
+                </div>
+              </div>
+            </div>
+
+            <!-- Swiper arrows -->
+            <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+
+            <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+          </div>
+        </div>
+
+        <img
+          src="assets/img/shape-wawes.svg"
+          alt="testimonial image"
+          class="testimonial__img"
+        />
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid section__border">
+          <div class="contact__content">
+            <h3 class="contact__title">
+              <i class="ri-chat-3-line"></i> Talk to me
+            </h3>
+
+            <div class="contact__info">
+              <div class="contact__data">
+                <span class="contact__data-title">Email</span>
+                <span class="contact__data-info"
+                  >s10244655@connect.np.edu.sg</span
+                >
+              </div>
+
+              <div class="contact__data">
+                <span class="contact__data-title">Whatsapp</span>
+                <span class="contact__data-info">+65 89079272</span>
+                <!-- Insert a real number plus country code -->
+                <a
+                  href="https://api.whatsapp.com/send?phone=6589079272&text=Hello, more information!"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+
+              <div class="contact__data">
+                <span class="contact__data-title">Telegram</span>
+                <span class="contact__data-info">+65 89079272</span>
+                <a
+                  href="https://t.me/beee_0826"
+                  target="_blank"
+                  class="contact__button"
+                >
+                  Write me <i class="ri-arrow-right-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <h3 class="contact__title">
+              <i class="ri-send-plane-line"></i> Write to me
+            </h3>
+
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__form-div">
+                <label class="contact__form-tag">Name</label>
+                <input
+                  type="text"
+                  name="user_name"
+                  required
+                  placeholder="Enter your name"
+                  class="contact__form-input"
+                  id="contact-name"
+                />
+              </div>
+
+              <div class="contact__form-div">
+                <label class="contact__form-tag">Email</label>
+                <input
+                  type="email"
+                  name="user_email"
+                  required
+                  placeholder="Enter your email"
+                  class="contact__form-input"
+                  id="contact-email"
+                />
+              </div>
+
+              <div class="contact__form-div contact__form-area">
+                <label class="contact__form-tag">Comment</label>
+                <textarea
+                  name="user_project"
+                  id="contact-project"
+                  placeholder="Write your comments here..."
+                  class="contact__form-input"
+                ></textarea>
+              </div>
+
+              <p class="contact__message" id="contact-message"></p>
+
+              <button type="submit" class="contact__button">
+                Submit <i class="ri-arrow-right-up-line"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Bing En</h1>
+        <p>IT Student</p>
+
+        <ul class="footer__list">
+          <li>
+            <a href="#home" class="footer__link">Home</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="footer__link">Skills</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="footer__link">Projects</a>
+          </li>
+        </ul>
+
+        <ul class="footer__social">
+          <a
+            href="https://linkedin.com/in/bing-en-koo"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="ri-linkedin-box-line"></i>
+          </a>
+
+          <a
+            href="https://github.com/bingenk"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="ri-github-fill"></i>
+          </a>
+
+          <a
+            href="https://twitter.com/bingen_k"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="ri-twitter-line"></i>
+          </a>
+        </ul>
+
+        <span class="footer__copy">
+          &#169; Copyright Bing En. All rights reserved
+        </span>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== EMAIL JS ===============-->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
