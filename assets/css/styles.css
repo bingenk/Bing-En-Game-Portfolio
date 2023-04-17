@@ -1116,11 +1116,6 @@ body.dark-theme {
   .home__social-link {
     font-size: 1.5rem;
   }
-  .home__info {
-    grid-template-rows: repeat(3, 130px);
-    row-gap: 4rem;
-    margin-top: 16rem;
-  }
 
   .skills__container {
     column-gap: 10rem;
